@@ -1,0 +1,81 @@
+[ {
+  "uid" : "aa919a2cfdf2544",
+  "name" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
+  "time" : {
+    "start" : 1627911967851,
+    "stop" : 1627911980902,
+    "duration" : 13051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31476331d73e3876",
+  "name" : "Then Enquiry is Created Successfully",
+  "time" : {
+    "start" : 1627912036078,
+    "stop" : 1627912043397,
+    "duration" : 7319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dacaeb2991809b64",
+  "name" : "",
+  "time" : {
+    "start" : 1627912043397,
+    "stop" : 1627912043397,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "174f73f6ea4f19a7",
+  "name" : "Given I am on Login Page from prod",
+  "time" : {
+    "start" : 1627911966032,
+    "stop" : 1627911967851,
+    "duration" : 1819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd570343a31e0e6a",
+  "name" : "Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com",
+  "time" : {
+    "start" : 1627911892648,
+    "stop" : 1627911957145,
+    "duration" : 64497
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7816f0f2b34ac31b",
+  "name" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
+  "time" : {
+    "start" : 1627911875744,
+    "stop" : 1627911892647,
+    "duration" : 16903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce899ec1f3d687c5",
+  "name" : "Given I am on Login Page from test48",
+  "time" : {
+    "start" : 1627911871489,
+    "stop" : 1627911875744,
+    "duration" : 4255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52bfa080fa855f84",
+  "name" : "Then Log in by CM Credentials on prod and Create Enquiry from CRM for testusercheck@mailinator.com",
+  "time" : {
+    "start" : 1627911980902,
+    "stop" : 1627912036078,
+    "duration" : 55176
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
