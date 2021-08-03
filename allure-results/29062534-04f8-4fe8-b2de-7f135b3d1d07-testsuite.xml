@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627911871486' stop='1627911966020'>
+    <name>Create Enquiry from CRM: CM Creates a Enquiry</name>
+    <title>Create Enquiry from CRM: CM Creates a Enquiry</title>
+    <test-cases>
+        <test-case start='1627911871487' status='passed' stop='1627911871489'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1627911871489' status='passed' stop='1627911875744'>
+            <name>Given I am on Login Page from test48</name>
+            <title>Given I am on Login Page from test48</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='675ecce8-3684-4b23-ae14-6d459c5aa949-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1627911875744' status='passed' stop='1627911892647'>
+            <name>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</name>
+            <title>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9125600d-56dc-4aab-8464-e3447e8875bc-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1627911892648' status='passed' stop='1627911957145'>
+            <name>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</name>
+            <title>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Critical'/>
+                <label name='severity' value='Blocker'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fa8e0605-3989-43ee-b460-4eec8790981e-attachment.png' type='image/png' size='97774'/>
+            </attachments>
+        </test-case>
+        <test-case start='1627911957145' status='passed' stop='1627911966018'>
+            <name>Then Enquiry is Created Successfully</name>
+            <title>Then Enquiry is Created Successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5b85f091-4623-408c-a5f0-7fbc89842145-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1627911966018' status='passed' stop='1627911966019'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

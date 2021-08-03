@@ -1,0 +1,82 @@
+{
+  "uid" : "31476331d73e3876",
+  "name" : "Then Enquiry is Created Successfully",
+  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.Then Enquiry is Created Successfully",
+  "historyId" : "2aa6ba350342768b26fe6c911daffdb6",
+  "time" : {
+    "start" : 1627912036078,
+    "stop" : 1627912043397,
+    "duration" : 7319
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2091daf893393bfc",
+      "name" : "Screenshot",
+      "source" : "2091daf893393bfc.png",
+      "type" : "image/png",
+      "size" : 39282
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Enquiry is Created Successfully"
+  }, {
+    "name" : "package",
+    "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd5f09745a0cf2b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627911957145,
+        "stop" : 1627911966018,
+        "duration" : 8873
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31476331d73e3876.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

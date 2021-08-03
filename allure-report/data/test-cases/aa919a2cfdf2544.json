@@ -1,0 +1,77 @@
+{
+  "uid" : "aa919a2cfdf2544",
+  "name" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
+  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
+  "historyId" : "5b4249d50d0db8773690e7858654065a",
+  "time" : {
+    "start" : 1627911967851,
+    "stop" : 1627911980902,
+    "duration" : 13051
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d115c780f46c52ad",
+      "name" : "Screenshot",
+      "source" : "d115c780f46c52ad.png",
+      "type" : "image/png",
+      "size" : 39282
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567"
+  }, {
+    "name" : "package",
+    "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa919a2cfdf2544.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}
