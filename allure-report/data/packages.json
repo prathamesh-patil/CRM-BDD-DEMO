@@ -1,113 +1,113 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "Create Enquiry from CRM: CM Creates a Enquiry",
     "children" : [ {
       "name" : "Given I am on Login Page from test48",
-      "uid" : "ce899ec1f3d687c5",
+      "uid" : "6823290c3c83bfcc",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627911871489,
-        "stop" : 1627911875744,
+        "start" : 1628170613224,
+        "stop" : 1628170617479,
         "duration" : 4255
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
-      "uid" : "7816f0f2b34ac31b",
+      "uid" : "996f24e123f1befa",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627911875744,
-        "stop" : 1627911892647,
-        "duration" : 16903
+        "start" : 1628170617479,
+        "stop" : 1628170633401,
+        "duration" : 15922
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com",
-      "uid" : "bd570343a31e0e6a",
+      "uid" : "f95dd72283d9d4da",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627911892648,
-        "stop" : 1627911957145,
-        "duration" : 64497
+        "start" : 1628170633401,
+        "stop" : 1628170695284,
+        "duration" : 61883
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "Given I am on Login Page from prod",
-      "uid" : "174f73f6ea4f19a7",
+      "uid" : "266fdd5b3dd7ee51",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627911966032,
-        "stop" : 1627911967851,
-        "duration" : 1819
+        "start" : 1628170704645,
+        "stop" : 1628170707097,
+        "duration" : 2452
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
-      "uid" : "aa919a2cfdf2544",
+      "uid" : "f7a3d5033842dbb",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627911967851,
-        "stop" : 1627911980902,
-        "duration" : 13051
+        "start" : 1628170707097,
+        "stop" : 1628170720980,
+        "duration" : 13883
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "Then Log in by CM Credentials on prod and Create Enquiry from CRM for testusercheck@mailinator.com",
-      "uid" : "52bfa080fa855f84",
+      "uid" : "4d5242f4b458e375",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627911980902,
-        "stop" : 1627912036078,
-        "duration" : 55176
+        "start" : 1628170720980,
+        "stop" : 1628170779197,
+        "duration" : 58217
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "Then Enquiry is Created Successfully",
-      "uid" : "31476331d73e3876",
+      "uid" : "9f6fca078c3b16c2",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627912036078,
-        "stop" : 1627912043397,
-        "duration" : 7319
+        "start" : 1628170779197,
+        "stop" : 1628170787523,
+        "duration" : 8326
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     }, {
       "name" : "",
-      "uid" : "dacaeb2991809b64",
+      "uid" : "6e6f63be8eb6a9b0",
       "parentUid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209",
       "status" : "passed",
       "time" : {
-        "start" : 1627912043397,
-        "stop" : 1627912043397,
-        "duration" : 0
+        "start" : 1628170787523,
+        "stop" : 1628170787524,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.107" ]
+      "parameters" : [ "chrome-91.0.4472.164" ]
     } ],
     "uid" : "9a4dd8f4e7b2cff702a0fd7e0d25b209"
-  } ]
+  } ],
+  "name" : "packages"
 }

@@ -64,7 +64,7 @@ class CreateEnquiryCRM{
         const filePath = path.join(__dirname, './data/Final_SampleHubbleFileheavyEdit.docx');
         const remoteFilePath=browser.uploadFile(filePath);
         browser.execute(function(){
-            const fileSelector=<HTMLInputElement>document.querySelector('#top-scroll > input:nth-child(10)');
+            const fileSelector=<Element>document.querySelector('#top-scroll > input:nth-child(10)');
             fileSelector.style="visibility: block";
         });
         inputFile.waitForDisplayed();
@@ -135,7 +135,7 @@ class CreateEnquiryCRM{
         browser.pause(10000);
         console.log("Url of the Page:"+browser.getUrl());
     }
-    Enquirycode(enquiryID){
+    Enquirycode(enquiryID: string){
         console.log("Then Page URL:"+enquiryID);
         browser.url(enquiryID);
     }

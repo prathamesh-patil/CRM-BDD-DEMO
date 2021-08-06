@@ -1,12 +1,12 @@
 {
-  "uid" : "dacaeb2991809b64",
-  "name" : "",
-  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.",
-  "historyId" : "75e79057f1f2314bd9662c403ca08f05",
+  "uid" : "9f6fca078c3b16c2",
+  "name" : "Then Enquiry is Created Successfully",
+  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.Then Enquiry is Created Successfully",
+  "historyId" : "8dd48d7b0b027354bdb26b503bbe7ddb",
   "time" : {
-    "start" : 1627912043397,
-    "stop" : 1627912043397,
-    "duration" : 0
+    "start" : 1628170779197,
+    "stop" : 1628170787523,
+    "duration" : 8326
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -14,6 +14,22 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48ff2dd49819225",
+      "name" : "Screenshot",
+      "source" : "48ff2dd49819225.png",
+      "type" : "image/png",
+      "size" : 39287
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -32,7 +48,7 @@
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
   }, {
     "name" : "testMethod",
-    "value" : ""
+    "value" : "Then Enquiry is Created Successfully"
   }, {
     "name" : "package",
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
@@ -42,7 +58,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-92.0.4515.107"
+    "value" : "chrome-91.0.4472.164"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -50,33 +66,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "1e2fc781274b2c88",
+      "uid" : "2d6804f4cae30f02",
       "status" : "passed",
       "time" : {
-        "start" : 1627911966031,
-        "stop" : 1627911966032,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "65121b19d6d9b136",
-      "status" : "passed",
-      "time" : {
-        "start" : 1627911966018,
-        "stop" : 1627911966019,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "a4be0e41cf437932",
-      "status" : "passed",
-      "time" : {
-        "start" : 1627911871487,
-        "stop" : 1627911871489,
-        "duration" : 2
+        "start" : 1628170695284,
+        "stop" : 1628170704619,
+        "duration" : 9335
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dacaeb2991809b64.json",
-  "parameterValues" : [ "chrome-92.0.4515.107" ]
+  "source" : "9f6fca078c3b16c2.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
 }

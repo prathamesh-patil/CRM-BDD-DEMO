@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627911871486' stop='1627911966020'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628170613219' stop='1628170704622'>
     <name>Create Enquiry from CRM: CM Creates a Enquiry</name>
     <title>Create Enquiry from CRM: CM Creates a Enquiry</title>
     <test-cases>
-        <test-case start='1627911871487' status='passed' stop='1627911871489'>
+        <test-case start='1628170613220' status='passed' stop='1628170613224'>
             <name></name>
             <title></title>
             <labels>
@@ -12,12 +12,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1627911871489' status='passed' stop='1627911875744'>
+        <test-case start='1628170613224' status='passed' stop='1628170617479'>
             <name>Given I am on Login Page from test48</name>
             <title>Given I am on Login Page from test48</title>
             <labels>
@@ -26,14 +26,14 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='675ecce8-3684-4b23-ae14-6d459c5aa949-attachment.png' type='image/png' size='39282'/>
+                <attachment title='Screenshot' source='2b35755d-2265-474a-9b7d-ffa99f4472de-attachment.png' type='image/png' size='39282'/>
             </attachments>
         </test-case>
-        <test-case start='1627911875744' status='passed' stop='1627911892647'>
+        <test-case start='1628170617479' status='passed' stop='1628170633401'>
             <name>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</name>
             <title>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</title>
             <labels>
@@ -43,14 +43,14 @@
                 <label name='severity' value='Normal'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='9125600d-56dc-4aab-8464-e3447e8875bc-attachment.png' type='image/png' size='39282'/>
+                <attachment title='Screenshot' source='a99e7a6d-087b-45d8-8435-1379d3aa1869-attachment.png' type='image/png' size='39282'/>
             </attachments>
         </test-case>
-        <test-case start='1627911892648' status='passed' stop='1627911957145'>
+        <test-case start='1628170633401' status='passed' stop='1628170695284'>
             <name>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</name>
             <title>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</title>
             <labels>
@@ -61,14 +61,14 @@
                 <label name='severity' value='Blocker'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='fa8e0605-3989-43ee-b460-4eec8790981e-attachment.png' type='image/png' size='97774'/>
+                <attachment title='Screenshot' source='1b3f9b45-9eb4-486c-980c-07a3277d8da7-attachment.png' type='image/png' size='96924'/>
             </attachments>
         </test-case>
-        <test-case start='1627911957145' status='passed' stop='1627911966018'>
+        <test-case start='1628170695284' status='passed' stop='1628170704619'>
             <name>Then Enquiry is Created Successfully</name>
             <title>Then Enquiry is Created Successfully</title>
             <labels>
@@ -77,14 +77,14 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='5b85f091-4623-408c-a5f0-7fbc89842145-attachment.png' type='image/png' size='39282'/>
+                <attachment title='Screenshot' source='cf058938-0da8-40bd-ac95-7402c7c62e6c-attachment.png' type='image/png' size='39282'/>
             </attachments>
         </test-case>
-        <test-case start='1627911966018' status='passed' stop='1627911966019'>
+        <test-case start='1628170704619' status='passed' stop='1628170704620'>
             <name></name>
             <title></title>
             <labels>
@@ -93,7 +93,7 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
             </parameters>
             <steps/>
             <attachments/>

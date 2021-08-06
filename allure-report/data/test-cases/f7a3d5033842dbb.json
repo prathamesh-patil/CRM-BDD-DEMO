@@ -1,12 +1,12 @@
 {
-  "uid" : "52bfa080fa855f84",
-  "name" : "Then Log in by CM Credentials on prod and Create Enquiry from CRM for testusercheck@mailinator.com",
-  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.Then Log in by CM Credentials on prod and Create Enquiry from CRM for testusercheck@mailinator.com",
-  "historyId" : "2bed9ff42afac4064fbf1ec2efaf5f1e",
+  "uid" : "f7a3d5033842dbb",
+  "name" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
+  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
+  "historyId" : "655dadee58310df858de49d3089eb66f",
   "time" : {
-    "start" : 1627911980902,
-    "stop" : 1627912036078,
-    "duration" : 55176
+    "start" : 1628170707097,
+    "stop" : 1628170720980,
+    "duration" : 13883
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,17 +18,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "778d3c81b6df3fc7",
+      "uid" : "417afd98e913c7db",
       "name" : "Screenshot",
-      "source" : "778d3c81b6df3fc7.png",
+      "source" : "417afd98e913c7db.png",
       "type" : "image/png",
-      "size" : 97367
+      "size" : 39282
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
+    "hasContent" : true,
     "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -39,10 +39,7 @@
     "value" : "javascript"
   }, {
     "name" : "severity",
-    "value" : "Blocker"
-  }, {
-    "name" : "severity",
-    "value" : "Critical"
+    "value" : "Normal"
   }, {
     "name" : "thread",
     "value" : "0-0"
@@ -54,7 +51,7 @@
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
   }, {
     "name" : "testMethod",
-    "value" : "Then Log in by CM Credentials on prod and Create Enquiry from CRM for testusercheck@mailinator.com"
+    "value" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567"
   }, {
     "name" : "package",
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
@@ -64,17 +61,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-92.0.4515.107"
+    "value" : "chrome-91.0.4472.164"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "blocker",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "52bfa080fa855f84.json",
-  "parameterValues" : [ "chrome-92.0.4515.107" ]
+  "source" : "f7a3d5033842dbb.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
 }

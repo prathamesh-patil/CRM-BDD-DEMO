@@ -36,7 +36,7 @@ When(/^Secret Password is captured for (.+) Admin Login for (.+) and (.+)$/,{tim
     secretPasswordValue=$("#widgetMainContent > div").getText();
     browser.pause(5000);
     browser.execute(function(){
-        const Loaders=<HTMLInputElement>document.getElementById('preloader');
+        const Loaders=<Element>document.getElementById('preloader');
         Loaders.style="display:none";
     });
     const profile= browser.$('#base_wrapper > header > nav > div.navbar-custom-menu > ul:nth-child(1) > li.dropdown.notifications-menu.user-menu > a > span > i');
@@ -70,7 +70,7 @@ Then(/^Log in by CM Credentials on (.+) and Create Enquiry from CRM for (.+)$/,{
        }
     browser.setTimeout({'implicit':5000});
     browser.execute(function(){
-        const Loaders=<HTMLInputElement>document.getElementById('preloader');
+        var Loaders=<Element>document.getElementById('preloader');
         Loaders.style="display:none";
     });
     allureReporter.addSeverity('Blocker')

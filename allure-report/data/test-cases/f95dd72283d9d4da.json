@@ -1,12 +1,12 @@
 {
-  "uid" : "ce899ec1f3d687c5",
-  "name" : "Given I am on Login Page from test48",
-  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.Given I am on Login Page from test48",
-  "historyId" : "a28aee323158f6dfc900250cead7d6e1",
+  "uid" : "f95dd72283d9d4da",
+  "name" : "Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com",
+  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com",
+  "historyId" : "f1b3f29ee1cc46366294bf14603a46df",
   "time" : {
-    "start" : 1627911871489,
-    "stop" : 1627911875744,
-    "duration" : 4255
+    "start" : 1628170633401,
+    "stop" : 1628170695284,
+    "duration" : 61883
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,17 +18,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "15f3d5d81e036474",
+      "uid" : "1f577e7643e4ce61",
       "name" : "Screenshot",
-      "source" : "15f3d5d81e036474.png",
+      "source" : "1f577e7643e4ce61.png",
       "type" : "image/png",
-      "size" : 39282
+      "size" : 96924
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
+    "hasContent" : true,
     "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -37,6 +37,12 @@
   }, {
     "name" : "language",
     "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Blocker"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
   }, {
     "name" : "thread",
     "value" : "0-0"
@@ -48,7 +54,7 @@
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
   }, {
     "name" : "testMethod",
-    "value" : "Given I am on Login Page from test48"
+    "value" : "Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com"
   }, {
     "name" : "package",
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
@@ -58,17 +64,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-92.0.4515.107"
+    "value" : "chrome-91.0.4472.164"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ce899ec1f3d687c5.json",
-  "parameterValues" : [ "chrome-92.0.4515.107" ]
+  "source" : "f95dd72283d9d4da.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
 }

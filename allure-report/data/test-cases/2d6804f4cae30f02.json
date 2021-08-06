@@ -1,12 +1,12 @@
 {
-  "uid" : "65121b19d6d9b136",
-  "name" : "",
-  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.",
-  "historyId" : "75e79057f1f2314bd9662c403ca08f05",
+  "uid" : "2d6804f4cae30f02",
+  "name" : "Then Enquiry is Created Successfully",
+  "fullName" : "Create Enquiry from CRM: CM Creates a Enquiry.Then Enquiry is Created Successfully",
+  "historyId" : "8dd48d7b0b027354bdb26b503bbe7ddb",
   "time" : {
-    "start" : 1627911966018,
-    "stop" : 1627911966019,
-    "duration" : 1
+    "start" : 1628170695284,
+    "stop" : 1628170704619,
+    "duration" : 9335
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -14,6 +14,22 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "485b3cbf4631110e",
+      "name" : "Screenshot",
+      "source" : "485b3cbf4631110e.png",
+      "type" : "image/png",
+      "size" : 39282
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -32,7 +48,7 @@
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
   }, {
     "name" : "testMethod",
-    "value" : ""
+    "value" : "Then Enquiry is Created Successfully"
   }, {
     "name" : "package",
     "value" : "Create Enquiry from CRM: CM Creates a Enquiry"
@@ -42,7 +58,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-92.0.4515.107"
+    "value" : "chrome-91.0.4472.164"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -51,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "65121b19d6d9b136.json",
-  "parameterValues" : [ "chrome-92.0.4515.107" ]
+  "source" : "2d6804f4cae30f02.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
 }
