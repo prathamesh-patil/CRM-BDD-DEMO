@@ -103,7 +103,7 @@ When(/^I login with Freelancer credentials$/,{timeout:100000},function() {
     CRMlogin.Password();
     CRMlogin.SubmitBtn();
     browser.execute(function(){
-        const Loaders=<HTMLInputElement>document.getElementById('preloader');
+        const Loaders=<Element>document.getElementById('preloader');
         Loaders.display="none";
     });
     const founderElement=browser.$('#drilldown > div > section > div:nth-child(1) > div.row.hidden-xs.employee-dash-header > div > div.col-md-3.hidden-xs > div > div > div > div.left-text-karma > p.karma-points > span');

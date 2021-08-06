@@ -1,0 +1,74 @@
+{
+  "uid" : "6b62dfc50243bd38",
+  "name" : "Given I am on Login Page from test48",
+  "fullName" : "Confirm Job from CRM: PM Confirms the Job.Given I am on Login Page from test48",
+  "historyId" : "8b8c5359d3184115d773936ac2571551",
+  "time" : {
+    "start" : 1628263781514,
+    "stop" : 1628263782761,
+    "duration" : 1247
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d31f15f6bb1a4c03",
+      "name" : "Screenshot",
+      "source" : "d31f15f6bb1a4c03.png",
+      "type" : "image/png",
+      "size" : 39282
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "testClass",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on Login Page from test48"
+  }, {
+    "name" : "package",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b62dfc50243bd38.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

@@ -1,0 +1,74 @@
+{
+  "uid" : "f763729a3933e0c9",
+  "name" : "Given I am on Login Page from test48",
+  "fullName" : "Confirm Job from CRM: CM Creates a Enquiry.Given I am on Login Page from test48",
+  "historyId" : "dfd7b928065b4711a57c083ca484469e",
+  "time" : {
+    "start" : 1628263699502,
+    "stop" : 1628263702731,
+    "duration" : 3229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d6e93299fb24deb",
+      "name" : "Screenshot",
+      "source" : "9d6e93299fb24deb.png",
+      "type" : "image/png",
+      "size" : 39282
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Confirm Job from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "testClass",
+    "value" : "Confirm Job from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on Login Page from test48"
+  }, {
+    "name" : "package",
+    "value" : "Confirm Job from CRM: CM Creates a Enquiry"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f763729a3933e0c9.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

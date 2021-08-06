@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628263781513' stop='1628263810837'>
+    <name>Confirm Job from CRM: PM Confirms the Job</name>
+    <title>Confirm Job from CRM: PM Confirms the Job</title>
+    <test-cases>
+        <test-case start='1628263781513' status='passed' stop='1628263781514'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628263781514' status='passed' stop='1628263782761'>
+            <name>Given I am on Login Page from test48</name>
+            <title>Given I am on Login Page from test48</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='388bf6c3-7eaa-48f6-86b7-a5f81c7fcf38-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628263782762' status='passed' stop='1628263795559'>
+            <name>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</name>
+            <title>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='69483ac9-5e63-4623-86bf-06986b67eec5-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628263795560' status='passed' stop='1628263799814'>
+            <name>Then Login by PM Credentials on test48 for PM Login</name>
+            <title>Then Login by PM Credentials on test48 for PM Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7618d797-eee0-4ec9-b4bd-10044ce1f23b-attachment.png' type='image/png' size='77643'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628263799814' status='passed' stop='1628263808714'>
+            <name>Then Confirm Job Successfully</name>
+            <title>Then Confirm Job Successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3adf9dd9-727a-42c9-9780-9fbfd7538852-attachment.png' type='image/png' size='75892'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628263808715' status='passed' stop='1628263810809'>
+            <name>Then Logout from PM Credentials Successfully</name>
+            <title>Then Logout from PM Credentials Successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628263810809' status='passed' stop='1628263810837'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

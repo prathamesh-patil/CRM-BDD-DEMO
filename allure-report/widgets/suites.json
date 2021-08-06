@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "136b4b9ab303029943e66df912e0def0",
-    "name" : "Create Enquiry from CRM: CM Creates a Enquiry",
+    "uid" : "3bd87c892fd1418b610320ccd0fcef41",
+    "name" : "Confirm Job from CRM: PM Confirms the Job",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 8
+      "total" : 6
+    }
+  }, {
+    "uid" : "52edd8bcae00a8501e1e29a32cef8466",
+    "name" : "Confirm Job from CRM: CM Creates a Enquiry",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
     }
   } ]
 }

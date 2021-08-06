@@ -1,0 +1,77 @@
+{
+  "uid" : "5fccb4e498de0a38",
+  "name" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
+  "fullName" : "Confirm Job from CRM: PM Confirms the Job.When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
+  "historyId" : "f1d0f38874a00f7600ef421f7e0b7961",
+  "time" : {
+    "start" : 1628263782762,
+    "stop" : 1628263795559,
+    "duration" : 12797
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad4ef4d4fb8252dd",
+      "name" : "Screenshot",
+      "source" : "ad4ef4d4fb8252dd.png",
+      "type" : "image/png",
+      "size" : 39282
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "testClass",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX"
+  }, {
+    "name" : "package",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fccb4e498de0a38.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

@@ -1,80 +1,110 @@
 [ {
-  "uid" : "6e6f63be8eb6a9b0",
-  "name" : "",
-  "time" : {
-    "start" : 1628170787523,
-    "stop" : 1628170787524,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f6fca078c3b16c2",
-  "name" : "Then Enquiry is Created Successfully",
-  "time" : {
-    "start" : 1628170779197,
-    "stop" : 1628170787523,
-    "duration" : 8326
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "266fdd5b3dd7ee51",
-  "name" : "Given I am on Login Page from prod",
-  "time" : {
-    "start" : 1628170704645,
-    "stop" : 1628170707097,
-    "duration" : 2452
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d5242f4b458e375",
-  "name" : "Then Log in by CM Credentials on prod and Create Enquiry from CRM for testusercheck@mailinator.com",
-  "time" : {
-    "start" : 1628170720980,
-    "stop" : 1628170779197,
-    "duration" : 58217
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "996f24e123f1befa",
-  "name" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
-  "time" : {
-    "start" : 1628170617479,
-    "stop" : 1628170633401,
-    "duration" : 15922
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f95dd72283d9d4da",
-  "name" : "Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com",
-  "time" : {
-    "start" : 1628170633401,
-    "stop" : 1628170695284,
-    "duration" : 61883
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "f7a3d5033842dbb",
-  "name" : "When Secret Password is captured for prod Admin Login for nikhita.more@cactusglobal.com and Ca1234567",
-  "time" : {
-    "start" : 1628170707097,
-    "stop" : 1628170720980,
-    "duration" : 13883
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6823290c3c83bfcc",
+  "uid" : "6b62dfc50243bd38",
   "name" : "Given I am on Login Page from test48",
   "time" : {
-    "start" : 1628170613224,
-    "stop" : 1628170617479,
-    "duration" : 4255
+    "start" : 1628263781514,
+    "stop" : 1628263782761,
+    "duration" : 1247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fccb4e498de0a38",
+  "name" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
+  "time" : {
+    "start" : 1628263782762,
+    "stop" : 1628263795559,
+    "duration" : 12797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a03e7e07435f43d",
+  "name" : "",
+  "time" : {
+    "start" : 1628263810809,
+    "stop" : 1628263810837,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44670305144e160d",
+  "name" : "When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX",
+  "time" : {
+    "start" : 1628263702731,
+    "stop" : 1628263713376,
+    "duration" : 10645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea62318330143bfb",
+  "name" : "",
+  "time" : {
+    "start" : 1628263781500,
+    "stop" : 1628263781500,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd1f09845e9b72b8",
+  "name" : "Then Enquiry is Created Successfully",
+  "time" : {
+    "start" : 1628263772933,
+    "stop" : 1628263781500,
+    "duration" : 8567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d04dd3a0a26e97fd",
+  "name" : "Then Logout from PM Credentials Successfully",
+  "time" : {
+    "start" : 1628263808715,
+    "stop" : 1628263810809,
+    "duration" : 2094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff5d552f25f50e9e",
+  "name" : "Then Confirm Job Successfully",
+  "time" : {
+    "start" : 1628263799814,
+    "stop" : 1628263808714,
+    "duration" : 8900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f763729a3933e0c9",
+  "name" : "Given I am on Login Page from test48",
+  "time" : {
+    "start" : 1628263699502,
+    "stop" : 1628263702731,
+    "duration" : 3229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc362157b69db338",
+  "name" : "Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com",
+  "time" : {
+    "start" : 1628263713376,
+    "stop" : 1628263772932,
+    "duration" : 59556
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d4650337aae12d06",
+  "name" : "Then Login by PM Credentials on test48 for PM Login",
+  "time" : {
+    "start" : 1628263795560,
+    "stop" : 1628263799814,
+    "duration" : 4254
   },
   "status" : "passed",
   "severity" : "normal"

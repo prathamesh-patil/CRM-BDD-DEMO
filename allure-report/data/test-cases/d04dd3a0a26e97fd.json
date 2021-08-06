@@ -1,0 +1,58 @@
+{
+  "uid" : "d04dd3a0a26e97fd",
+  "name" : "Then Logout from PM Credentials Successfully",
+  "fullName" : "Confirm Job from CRM: PM Confirms the Job.Then Logout from PM Credentials Successfully",
+  "historyId" : "ce0097857641f032706946a036af1cd8",
+  "time" : {
+    "start" : 1628263808715,
+    "stop" : 1628263810809,
+    "duration" : 2094
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "testClass",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Logout from PM Credentials Successfully"
+  }, {
+    "name" : "package",
+    "value" : "Confirm Job from CRM: PM Confirms the Job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d04dd3a0a26e97fd.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}
