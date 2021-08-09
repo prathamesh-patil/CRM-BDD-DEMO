@@ -19,7 +19,7 @@ class CRMlogin {
     }
     PMlogin(){
         this.usernameLogin.waitForExist();
-        this.usernameLogin.setValue("milind.kumar@cactusglobal.com");
+        this.usernameLogin.setValue("naveenr@cactusglobal.com");
     }
     Translatorlogin(){
         this.usernameLogin.waitForExist();

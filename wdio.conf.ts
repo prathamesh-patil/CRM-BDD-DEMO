@@ -38,7 +38,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './features/**/ConfirmJob.feature'
+        './features/**/SendJobToClient.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -154,7 +154,7 @@ export const config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/ConfirmJob.step.ts'],
+        require: ['./features/step-definitions/SendJobToClient.step.ts'],
         requireModule: ['@babel/register'],
         // <boolean> show full backtrace for errors
         backtrace: false,
@@ -266,7 +266,7 @@ export const config = {
      * @param {string}             result.error    error stack if scenario failed
      * @param {number}             result.duration duration of scenario in milliseconds
      */
-     afterStep: function (test:any, scenario:any, { error, duration, passed }) {
+     afterStep: function (test:any, scenario:any) {
         {
           browser.takeScreenshot();
         }

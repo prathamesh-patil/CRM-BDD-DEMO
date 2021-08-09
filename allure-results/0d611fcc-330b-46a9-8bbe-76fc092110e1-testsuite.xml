@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628519699943' stop='1628519894096'>
+    <name>SendJobToClient from CRM: Allocate a job to FL/EOC/Inhouse User</name>
+    <title>SendJobToClient from CRM: Allocate a job to FL/EOC/Inhouse User</title>
+    <test-cases>
+        <test-case start='1628519699943' status='passed' stop='1628519699944'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628519699944' status='passed' stop='1628519763742'>
+            <name>Given I am on Login Page from test48</name>
+            <title>Given I am on Login Page from test48</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1aa15883-dfb6-4b44-a5c3-79d973e83e0d-attachment.png' type='image/png' size='59516'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628519763742' status='broken' stop='1628519894095'>
+            <name>When PM Clicks on ManualAllocation Action from More Option test48</name>
+            <title>When PM Clicks on ManualAllocation Action from More Option test48</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dae975d0-0a6f-4d45-9a33-c5c8624d1972-attachment.png' type='image/png' size='93230'/>
+            </attachments>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 90000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 90000 milliseconds
+                    at Timeout._onTimeout (D:\BDDAutomation\crm\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\user_code_runner.ts:80:18)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628519894095' status='undefined'>
+            <name>Then Allocate the job from PM to FL OR EOC OR InhouseUser</name>
+            <title>Then Allocate the job from PM to FL OR EOC OR InhouseUser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628519894095' status='pending' stop='1628519894095'>
+            <name>Allocate the job from PM to FL OR EOC OR InhouseUser</name>
+            <title>Allocate the job from PM to FL OR EOC OR InhouseUser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628519894095' status='undefined'>
+            <name>Then Logout from PM Credentials Successfully</name>
+            <title>Then Logout from PM Credentials Successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628519894096' status='pending' stop='1628519894096'>
+            <name>Logout from PM Credentials Successfully</name>
+            <title>Logout from PM Credentials Successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628519894096' status='passed' stop='1628519894096'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

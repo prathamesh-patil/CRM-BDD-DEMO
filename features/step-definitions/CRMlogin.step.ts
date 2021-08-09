@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import CRMlogin from '../pageobjects/CRMlogin.page';
+import CRMlogin from '../pageobjects/Actions/CRMlogin.page';
 Given(/^I am on the login page$/,{timeout:100000},function() {
     CRMlogin.OpenBrowser();
     browser.maximizeWindow();

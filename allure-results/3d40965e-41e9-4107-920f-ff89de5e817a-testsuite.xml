@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628263699498' stop='1628263781501'>
-    <name>Confirm Job from CRM: CM Creates a Enquiry</name>
-    <title>Confirm Job from CRM: CM Creates a Enquiry</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628519554391' stop='1628519699934'>
+    <name>SendJobToClient from CRM: PM Confirms the Job</name>
+    <title>SendJobToClient from CRM: PM Confirms the Job</title>
     <test-cases>
-        <test-case start='1628263699499' status='passed' stop='1628263699502'>
+        <test-case start='1628519554391' status='passed' stop='1628519554391'>
             <name></name>
             <title></title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1628263699502' status='passed' stop='1628263702731'>
+        <test-case start='1628519554391' status='passed' stop='1628519555627'>
             <name>Given I am on Login Page from test48</name>
             <title>Given I am on Login Page from test48</title>
             <labels>
@@ -30,10 +30,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='e5445698-faf9-47e5-8837-79125eb858fa-attachment.png' type='image/png' size='39282'/>
+                <attachment title='Screenshot' source='5c967cd1-946f-4a26-aa63-91c40543eaed-attachment.png' type='image/png' size='39282'/>
             </attachments>
         </test-case>
-        <test-case start='1628263702731' status='passed' stop='1628263713376'>
+        <test-case start='1628519555627' status='passed' stop='1628519566493'>
             <name>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</name>
             <title>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</title>
             <labels>
@@ -47,30 +47,12 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='d53eafaf-7632-453b-aa85-52631ad705df-attachment.png' type='image/png' size='39282'/>
+                <attachment title='Screenshot' source='4ef1360e-e751-4af3-a3e6-7305011e0f62-attachment.png' type='image/png' size='39282'/>
             </attachments>
         </test-case>
-        <test-case start='1628263713376' status='passed' stop='1628263772932'>
-            <name>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</name>
-            <title>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</title>
-            <labels>
-                <label name='language' value='javascript'/>
-                <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
-                <label name='severity' value='Critical'/>
-                <label name='severity' value='Blocker'/>
-            </labels>
-            <parameters>
-                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
-            </parameters>
-            <steps/>
-            <attachments>
-                <attachment title='Screenshot' source='69e836c6-22d1-4811-b7f7-710f0b5142c2-attachment.png' type='image/png' size='96530'/>
-            </attachments>
-        </test-case>
-        <test-case start='1628263772933' status='passed' stop='1628263781500'>
-            <name>Then Enquiry is Created Successfully</name>
-            <title>Then Enquiry is Created Successfully</title>
+        <test-case start='1628519566493' status='broken' stop='1628519699933'>
+            <name>Then Login by PM Credentials on test48 for PM Login</name>
+            <title>Then Login by PM Credentials on test48 for PM Login</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
@@ -81,10 +63,17 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='7da961b1-9d07-409c-9424-53556aacd047-attachment.png' type='image/png' size='39282'/>
+                <attachment title='Screenshot' source='8de8038a-3598-4b26-b300-4258fd5d2a50-attachment.png' type='image/png' size='93225'/>
             </attachments>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 90000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 90000 milliseconds
+                    at Timeout._onTimeout (D:\BDDAutomation\crm\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\user_code_runner.ts:80:18)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
         </test-case>
-        <test-case start='1628263781500' status='passed' stop='1628263781500'>
+        <test-case start='1628519699934' status='passed' stop='1628519699934'>
             <name></name>
             <title></title>
             <labels>

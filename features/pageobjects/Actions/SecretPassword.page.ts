@@ -69,6 +69,7 @@ class SecretPassword {
           CRMlogin.Password();
           CRMlogin.SubmitBtn();
           console.log("Printed the ELSE Part");
+          browser.pause(5000)
          }
     }
 
