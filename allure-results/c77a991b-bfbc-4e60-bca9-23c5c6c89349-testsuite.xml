@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628519699943' stop='1628519894096'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628574402429' stop='1628574442733'>
     <name>SendJobToClient from CRM: Allocate a job to FL/EOC/Inhouse User</name>
     <title>SendJobToClient from CRM: Allocate a job to FL/EOC/Inhouse User</title>
     <test-cases>
-        <test-case start='1628519699943' status='passed' stop='1628519699944'>
+        <test-case start='1628574402429' status='passed' stop='1628574402429'>
             <name></name>
             <title></title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1628519699944' status='passed' stop='1628519763742'>
+        <test-case start='1628574402429' status='passed' stop='1628574417458'>
             <name>Given I am on Login Page from test48</name>
             <title>Given I am on Login Page from test48</title>
             <labels>
@@ -30,10 +30,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='1aa15883-dfb6-4b44-a5c3-79d973e83e0d-attachment.png' type='image/png' size='59516'/>
+                <attachment title='Screenshot' source='2366d027-8889-434b-b332-266c4dcc8e94-attachment.png' type='image/png' size='75300'/>
             </attachments>
         </test-case>
-        <test-case start='1628519763742' status='broken' stop='1628519894095'>
+        <test-case start='1628574417458' status='broken' stop='1628574442732'>
             <name>When PM Clicks on ManualAllocation Action from More Option test48</name>
             <title>When PM Clicks on ManualAllocation Action from More Option test48</title>
             <labels>
@@ -46,17 +46,24 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='dae975d0-0a6f-4d45-9a33-c5c8624d1972-attachment.png' type='image/png' size='93230'/>
+                <attachment title='Screenshot' source='3c65b2f8-04cc-4d21-9685-2b225da7971f-attachment.png' type='image/png' size='112791'/>
             </attachments>
             <failure>
-                <message>Error: function timed out, ensure the promise resolves within 90000 milliseconds</message>
-                <stack-trace>Error: function timed out, ensure the promise resolves within 90000 milliseconds
-                    at Timeout._onTimeout (D:\BDDAutomation\crm\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\user_code_runner.ts:80:18)
-                    at listOnTimeout (internal/timers.js:557:17)
-                    at processTimers (internal/timers.js:500:7)</stack-trace>
+                <message>Error: Can't call scrollIntoView on element with selector "#me-info-header > div.jobs-header.label-warning > div:nth-child(1) > div.col-md-4 > div.header-btn-wrap > button" because element wasn't found</message>
+                <stack-trace>Error: Can't call scrollIntoView on element with selector "#me-info-header > div.jobs-header.label-warning > div:nth-child(1) > div.col-md-4 > div.header-btn-wrap > button" because element wasn't found
+                    at Object.implicitWait [as default] (D:\BDDAutomation\crm\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (D:\BDDAutomation\crm\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.runCommandWithHooks (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (D:\BDDAutomation\crm\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at PMActions.moreAction (D:\BDDAutomation\crm\features\pageobjects\Actions\PMActions.page.ts:4:20)
+                    at World.&lt;anonymous> (D:\BDDAutomation\crm\features\step-definitions\SendJobToClient.step.ts:118:15)
+                    at World.executeSync (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\BDDAutomation\crm\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
             </failure>
         </test-case>
-        <test-case start='1628519894095' status='undefined'>
+        <test-case start='1628574442732' status='undefined'>
             <name>Then Allocate the job from PM to FL OR EOC OR InhouseUser</name>
             <title>Then Allocate the job from PM to FL OR EOC OR InhouseUser</title>
             <labels>
@@ -70,7 +77,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1628519894095' status='pending' stop='1628519894095'>
+        <test-case start='1628574442732' status='pending' stop='1628574442732'>
             <name>Allocate the job from PM to FL OR EOC OR InhouseUser</name>
             <title>Allocate the job from PM to FL OR EOC OR InhouseUser</title>
             <labels/>
@@ -82,7 +89,7 @@
                 <stack-trace>undefined</stack-trace>
             </failure>
         </test-case>
-        <test-case start='1628519894095' status='undefined'>
+        <test-case start='1628574442732' status='undefined'>
             <name>Then Logout from PM Credentials Successfully</name>
             <title>Then Logout from PM Credentials Successfully</title>
             <labels>
@@ -96,7 +103,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1628519894096' status='pending' stop='1628519894096'>
+        <test-case start='1628574442732' status='pending' stop='1628574442732'>
             <name>Logout from PM Credentials Successfully</name>
             <title>Logout from PM Credentials Successfully</title>
             <labels/>
@@ -108,7 +115,7 @@
                 <stack-trace>undefined</stack-trace>
             </failure>
         </test-case>
-        <test-case start='1628519894096' status='passed' stop='1628519894096'>
+        <test-case start='1628574442732' status='passed' stop='1628574442733'>
             <name></name>
             <title></title>
             <labels>

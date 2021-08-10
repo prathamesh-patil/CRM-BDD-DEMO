@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628574402240' stop='1628574402423'>
+    <name>SendJobToClient from CRM: PM Confirms the Job</name>
+    <title>SendJobToClient from CRM: PM Confirms the Job</title>
+    <test-cases>
+        <test-case start='1628574402240' status='passed' stop='1628574402240'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628574402241' status='broken' stop='1628574402422'>
+            <name>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</name>
+            <title>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6e5700bf-615f-4a17-b6b2-7e34c1952c86-attachment.png' type='image/png' size='53827'/>
+            </attachments>
+            <failure>
+                <message>invalid element state</message>
+                <stack-trace>invalid element state
+                  (Session info: chrome=92.0.4515.131)
+                    at Object.getErrorFromResponseBody (D:\BDDAutomation\crm\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (D:\BDDAutomation\crm\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Element.elementErrorHandlerCallbackFn (D:\BDDAutomation\crm\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.setValue (D:\BDDAutomation\crm\node_modules\webdriverio\build\commands\element\setValue.js:30:5)
+                    at Element.runCommandWithHooks (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (D:\BDDAutomation\crm\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at SecretPassword.secretPassWordExecution (D:\BDDAutomation\crm\features\pageobjects\Actions\SecretPassword.page.ts:20:27)
+                    at World.&lt;anonymous> (D:\BDDAutomation\crm\features\step-definitions\SendJobToClient.step.ts:20:20)
+                    at World.executeSync (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\BDDAutomation\crm\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628574402422' status='undefined'>
+            <name>Then Login by PM Credentials on test48 for PM Login</name>
+            <title>Then Login by PM Credentials on test48 for PM Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628574402422' status='pending' stop='1628574402422'>
+            <name>Login by PM Credentials on test48 for PM Login</name>
+            <title>Login by PM Credentials on test48 for PM Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628574402422' status='passed' stop='1628574402423'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

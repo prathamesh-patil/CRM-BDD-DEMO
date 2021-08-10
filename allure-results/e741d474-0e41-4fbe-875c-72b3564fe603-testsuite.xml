@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628574316424' stop='1628574402227'>
+    <name>SendJobToClient from CRM: CM Creates a Enquiry</name>
+    <title>SendJobToClient from CRM: CM Creates a Enquiry</title>
+    <test-cases>
+        <test-case start='1628574316425' status='passed' stop='1628574316427'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628574316428' status='passed' stop='1628574320612'>
+            <name>Given I am on Login Page from test48</name>
+            <title>Given I am on Login Page from test48</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='12e81441-6768-4244-a8fe-d1070d6536da-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628574320612' status='passed' stop='1628574342499'>
+            <name>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</name>
+            <title>When Secret Password is captured for test48 Admin Login for neild@cactusglobal.com and VgzTs9zhDcHZmWfX</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='733315be-5968-44b7-a335-a0abc67d8ac7-attachment.png' type='image/png' size='39282'/>
+            </attachments>
+        </test-case>
+        <test-case start='1628574342499' status='broken' stop='1628574402222'>
+            <name>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</name>
+            <title>Then Log in by CM Credentials on test48 and Create Enquiry from CRM for testusercheck@mailinator.com</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Critical'/>
+                <label name='severity' value='Blocker'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f02b6022-27ae-48f5-b6aa-c968724ea0dd-attachment.png' type='image/png' size='53827'/>
+            </attachments>
+            <failure>
+                <message>element click intercepted: Element &lt;button class="btn btn-primary flt-lft" type="button" id="submit_enquiry" name="submit_enquiry" tabindex="1775" data-fv-field="submit_enquiry">...&lt;/button> is not clickable at point (90, 459). Other element would receive the click: &lt;div id="preloader" style="display: block; opacity: 0.00803405;">...&lt;/div></message>
+                <stack-trace>element click intercepted: Element &lt;button class="btn btn-primary flt-lft" type="button" id="submit_enquiry" name="submit_enquiry" tabindex="1775" data-fv-field="submit_enquiry">...&lt;/button> is not clickable at point (90, 459). Other element would receive the click: &lt;div id="preloader" style="display: block; opacity: 0.00803405;">...&lt;/div>
+                  (Session info: chrome=92.0.4515.131)
+                    at Object.getErrorFromResponseBody (D:\BDDAutomation\crm\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (D:\BDDAutomation\crm\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Element.elementErrorHandlerCallbackFn (D:\BDDAutomation\crm\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.runCommandWithHooks (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (D:\BDDAutomation\crm\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at CreateEnquiryCRM.CreateEnquiry (D:\BDDAutomation\crm\features\pageobjects\Actions\CreateEnquiry.page.ts:90:21)
+                    at World.&lt;anonymous> (D:\BDDAutomation\crm\features\step-definitions\SendJobToClient.step.ts:49:22)
+                    at World.executeSync (D:\BDDAutomation\crm\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\BDDAutomation\crm\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628574402222' status='undefined'>
+            <name>Then Confirm Job Successfully from test48</name>
+            <title>Then Confirm Job Successfully from test48</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628574402223' status='pending' stop='1628574402223'>
+            <name>Confirm Job Successfully from test48</name>
+            <title>Confirm Job Successfully from test48</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628574402223' status='undefined'>
+            <name>Then Enquiry is Created Successfully</name>
+            <title>Then Enquiry is Created Successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1628574402223' status='pending' stop='1628574402223'>
+            <name>Enquiry is Created Successfully</name>
+            <title>Enquiry is Created Successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628574402223' status='passed' stop='1628574402224'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -10,7 +10,6 @@ Feature: SendJobToClient from CRM
             | env    | username               | password         | user_email_id                |
             | test48 | neild@cactusglobal.com | VgzTs9zhDcHZmWfX | testusercheck@mailinator.com |
     Scenario: PM Confirms the Job
-        Given I am on Login Page from <env>
         When Secret Password is captured for <env> Admin Login for <username> and <password>
         Then Login by PM Credentials on <env> for PM Login
         Examples:
