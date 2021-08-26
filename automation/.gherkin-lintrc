@@ -1,0 +1,5 @@
+{
+    "no-dupe-scenario-names": "on",
+    "allowed-tags": ["on", {"tags": ["@smoke", "@regression", "@sanity", "@eng", "@chn", "@jpn", "@kor", "@ind", "@engin", "@ger", "@brl", "@tfg", "@tfc", "@kino", "@kup", "@wkh", "@hdw", "@sageg", "@sagec", "@wasg", "@wasc", "@twn", "@osa", "@hctr", "@crm" ]}],
+    "scenario-size": ["on", { "steps-length": { "Background": 15, "Scenario": 15 }}]
+}

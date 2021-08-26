@@ -1,0 +1,26 @@
+{
+  "partners": [
+    "eng",
+    "jpn",
+    "chn",
+    "kor",
+    "engin",
+    "ind",
+    "ger",
+    "brl",
+    "kino",
+    "kup",
+    "wkh",
+    "hdw",
+    "twn",
+    "tfg",
+    "tfc",
+    "sageg",
+    "sagec",
+    "wasg",
+    "wasc",
+    "osa",
+    "crm"
+  ],
+  "suites": ["@sanity", "@smoke", "@regression"]
+}

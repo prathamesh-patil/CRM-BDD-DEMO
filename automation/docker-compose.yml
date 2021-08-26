@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  automation:
+    container_name: automation
+    image: cactushub/vault:automation
+    build: .
+    volumes:
+      - .:/opt/automation:rw
+    command: /bin/sh -c "while sleep 1000; do :; done"

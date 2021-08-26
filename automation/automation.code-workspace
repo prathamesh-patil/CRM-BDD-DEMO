@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cucumberautocomplete.steps": ["src/steps/**/*.ts"],
+    "cucumberautocomplete.syncfeatures": "src/features/**/*feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
+  },
+  "extensions": {
+    "recommendations": ["alexkrechik.cucumberautocomplete"]
+  }
+}
